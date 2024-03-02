@@ -144,7 +144,7 @@ export default function LoginPage() {
       </div>
 
         <div className="-ml-48 w-80 mt-12">
-          <img src="../src/assets/signinpic.svg" alt="" className='w-full'/>
+          <img src="../src/public/signinpic.svg" alt="" className='w-full'/>
         </div>   
         
     </div>
