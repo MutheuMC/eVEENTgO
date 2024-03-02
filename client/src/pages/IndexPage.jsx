@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { BsArrowRightShort } from "react-icons/bs";
 import { BiLike } from "react-icons/bi";
 import paduru from "../public/paduru.png";
+import hero from "../public/hero.jpg";
 
   export default function IndexPage() {
     const [events, setEvents] = useState([]);
@@ -46,7 +47,7 @@ import paduru from "../public/paduru.png";
       <>
         <div className="hidden sm:block" >
           <div href="#" className="flex item-center inset-0 bg-cover">
-            <img src="../src/assets/hero.jpg" alt="" className='bg-cover w-full h-52'/> 
+            <img src={hero} alt="" className='bg-cover w-full h-52'/> 
           </div>
         </div>
 
