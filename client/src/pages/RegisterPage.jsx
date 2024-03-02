@@ -2,6 +2,7 @@
 import { Link, Navigate } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
+import logo from "../public/logo.png";
 
 export default function RegisterPage() {
   const [name, setName] = useState('');
@@ -45,7 +46,7 @@ export default function RegisterPage() {
         <div className="text-3xl font-black">Welcome to</div>
 
           <div>
-            <img src="../src/assets/logo.png" alt="" className="w-48"/>
+            <img src={logo} alt="" className="w-48"/>
           </div>  
         </div>
 

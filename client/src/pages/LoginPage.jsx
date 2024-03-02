@@ -2,6 +2,8 @@ import { useContext, useEffect, useState } from 'react'
 import { Link, Navigate } from 'react-router-dom'
 import axios from 'axios'
 import { UserContext } from '../UserContext'
+import logo from '../public/logo.png'
+import signpic from '../public/signpic.png'
 
 
 export default function LoginPage() {
@@ -139,12 +141,12 @@ export default function LoginPage() {
       <div className='flex flex-col -ml-96 gap-3'>
         <div className='text-3xl font-black'>Welcome to</div>
         <div>
-          <img src="../src/public/logo.png" alt="" className="w-48"/>
+          <img src={logo} alt="" className="w-48"/>
         </div>
       </div>
 
         <div className="-ml-48 w-80 mt-12">
-          <img src="../src/public/signinpic.svg" alt="" className='w-full'/>
+          <img src={signpic} alt="" className='w-full'/>
         </div>   
         
     </div>
