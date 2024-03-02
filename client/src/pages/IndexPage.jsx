@@ -80,7 +80,7 @@ import { BiLike } from "react-icons/bi";
 
                 
 
-                <img src="../src/assets/paduru.png" alt="" className='rounded-tl-[0.75rem] rounded-tr-[0.75rem] rounded-br-[0] rounded-bl-[0] object-fill aspect-16:9'/> 
+                <img src="../src/public/paduru.png" alt="" className='rounded-tl-[0.75rem] rounded-tr-[0.75rem] rounded-br-[0] rounded-bl-[0] object-fill aspect-16:9'/> 
     {/* FIXME: This is a demo image after completing the create event function delete this */}
 
               <div className="m-2 grid gap-2">

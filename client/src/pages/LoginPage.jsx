@@ -139,7 +139,7 @@ export default function LoginPage() {
       <div className='flex flex-col -ml-96 gap-3'>
         <div className='text-3xl font-black'>Welcome to</div>
         <div>
-          <img src="../src/assets/logo.png" alt="" className="w-48"/>
+          <img src="../src/public/logo.png" alt="" className="w-48"/>
         </div>
       </div>
 
