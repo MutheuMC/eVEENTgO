@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
    credentials: true,
-      origin: "https://eventgo-flame.vercel.app/",
+      origin: "https://eventgo-flame.vercel.app",
 }));
 
 mongoose.connect(process.env.MONGO_URL);
